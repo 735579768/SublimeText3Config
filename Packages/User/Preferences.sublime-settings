@@ -1,0 +1,90 @@
+{
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 4,
+	"caret_style": "blink",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"csslint_options":
+	{
+		"adjoining-classes": false,
+		"box-model": false,
+		"box-sizing": false,
+		"compatible-vendor-prefixes": false,
+		"floats": false,
+		"font-sizes": false,
+		"gradients": false,
+		"important": false,
+		"known-properties": false,
+		"outline-none": false,
+		"qualified-headings": false,
+		"regex-selectors": false,
+		"shorthand": false,
+		"text-indent": false,
+		"unique-headings": false,
+		"universal-selector": false,
+		"unqualified-attributes": false
+	},
+	"enable_tab_scrolling": true,
+	"fade_fold_buttons": false,
+	"font_face": "mononoki",
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"jshint_options":
+	{
+		"browser": true,
+		"curly": true,
+		"devel": true,
+		"eqeqeq": true,
+		"evil": true,
+		"forin": true,
+		"globals":
+		{
+			"$": true,
+			"console": true,
+			"document": true,
+			"global": true,
+			"grunt": true,
+			"jQuery": true,
+			"module": true,
+			"setInterval": true,
+			"setTimeout": true,
+			"window": true
+		},
+		"jquery": true,
+		"latedef": true,
+		"noarg": true,
+		"noempty": true,
+		"quotmark": "single",
+		"strict": false,
+		"undef": true,
+		"unused": "vars",
+		"wsh": true
+	},
+	"predawn_sidebar_arrows": true,
+	"predawn_sidebar_large": false,
+	"predawn_sidebar_medium": false,
+	"predawn_sidebar_narrow": false,
+	"predawn_sidebar_small": false,
+	"predawn_sidebar_xlarge": false,
+	"predawn_sidebar_xsmall": false,
+	"predawn_tabs_active_underline": true,
+	"predawn_tabs_large": false,
+	"predawn_tabs_medium": false,
+	"predawn_tabs_small": true,
+	"show_encoding": true,
+	"sublimelinter": "save-only",
+	"sublimelinter_executable_map":
+	{
+		"css": "D:/Program Files/nodejs/node.exe",
+		"javascript": "D:/Program Files/nodejs/node.exe"
+	},
+	"sublimelinter_popup_errors_on_save": true,
+	"theme": "predawn.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false
+}

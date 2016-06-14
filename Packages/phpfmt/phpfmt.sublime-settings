@@ -1,0 +1,7 @@
+{
+"version": 4,
+"engine_channel": "alpha",
+// "php_bin":"/usr/local/bin/php",
+// "format_on_save":true,
+"option": "value"
+}

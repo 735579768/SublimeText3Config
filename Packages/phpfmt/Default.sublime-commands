@@ -1,0 +1,10 @@
+[
+    {"caption": "phpfmt: format now", "command": "fmt_now"},
+    {"caption": "phpfmt: indentation with spaces", "command": "indent_with_spaces"},
+    {"caption": "phpfmt: toggle additional transformations", "command": "toggle_pass_menu" },
+    {"caption": "phpfmt: toggle excluded transformations", "command": "toggle_exclude_menu" },
+    {"caption": "phpfmt: toggle format on save", "command": "toggle", "args": {"option":"format_on_save"}},
+    {"caption": "phpfmt: reorganize content of class", "command": "order_method"},
+    {"caption": "phpfmt: troubleshoot information", "command": "debug_env"},
+    {"caption": "phpfmt: update PHP binary path", "command": "update_php_bin"}
+]
