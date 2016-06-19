@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group cl">
+    <div class="form-label">
+    	<b>${1:title}</b>
+    	<span class="form-tip">${2:tip}</span>
+    </div>
+    <select name="${3:name}" class="form-control input-middle">
+    	<option value="${4:value}">${5:title}</option>
+    </select>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>foselect</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
