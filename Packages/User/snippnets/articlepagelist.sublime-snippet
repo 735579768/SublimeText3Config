@@ -1,17 +1,17 @@
 <snippet>
 	<content><![CDATA[
-<article:list name="${1:vo}" category_id="${2:1}" position="${3:1,2,3}" rows="${4:15}" order="${5:id desc}" url="${6:/}" id="${7:pagenav}">
+<article:pagelist name="${1:vo}" category_id="${2:1}" position="${3:1,2,3}" rows="${4:15}" order="${5:id desc}" url="${6:/}" id="${7:pagenav}">
 
 <a target="_blank" href="{:U('detail/'.\$${1:vo}['article_id'])}" title="{\$${1:vo}.title}">{\$${1:vo}.title}
 </a>
 <span class="date">{\$${1:vo}.create_time|date='Y/m/d',###}</span>
 
-</article:list>
+</article:pagelist>
 
 <article:pagenav id="${7:pagenav}" />
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>articlepage</tabTrigger>
+	<tabTrigger>articlepagelist</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.html</scope>
 </snippet>
