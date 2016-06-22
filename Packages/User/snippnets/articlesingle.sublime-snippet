@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<article:single name="${1:vo}"  article_id="${2:1}">
+
+<a target="_blank" href="{:U('detail/'.\$${1:vo}['article_id'])}" title="{\$${1:vo}.title}">{\$${1:vo}.title}
+</a>
+<span class="date">{\$${1:vo}.create_time|date='Y/m/d',###}</span>
+
+</article:single>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>articlesingle</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>

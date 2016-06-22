@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<dl class="flink cl">
+	<dt><a href="javascript:;">友情链接:</a></dt>
+    <ank:link name="vo">
+    <dd><a target="_blank" href="{$vo.url}">{$vo.title}</a></dd>
+	</ank:link>
+</dl>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>anklink</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
