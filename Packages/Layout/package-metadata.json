@@ -1,1 +1,1 @@
-{"description": "A powerful plugin to split window like tmux for Sublime Text 3.", "dependencies": [], "sublime_text": ">=3000", "version": "0.1.1", "url": "https://github.com/loggerhead/Layout", "platforms": ["*"]}
+{"sublime_text": ">=3000", "description": "A powerful plugin to split window like tmux for Sublime Text 3.", "platforms": ["*"], "version": "0.1.2", "url": "https://github.com/loggerhead/Layout", "dependencies": []}
